@@ -1,0 +1,19 @@
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.table-header {
+    background-color: #dddddd;
+}
+
+table {
+    border-collapse: collapse;
+}  
+
+td, th {
+    border: 1px solid #b4b4b4;
+    text-align: left;
+    padding: 16px;
+    cursor: pointer;
+}

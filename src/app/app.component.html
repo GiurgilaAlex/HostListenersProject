@@ -1,0 +1,11 @@
+<h3 class="title">Press any key and see what happens!</h3>
+<h2 class="title">You have clicked: {{clickedValue ? clickedValue : 'Nothing yet!'}}</h2>
+
+<table *ngIf="keyPressed">
+  <tr class="table-header">
+    <th *ngFor="let key of getData()">{{key}}</th>
+  </tr>
+  <tr>
+    <td *ngFor="let val of getValue()">{{val}}</td>
+  </tr>
+</table>
